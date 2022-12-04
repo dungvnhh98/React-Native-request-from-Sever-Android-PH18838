@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "assignmentph18838",
+  "builds": [
+    { "src": "app.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/app.js" }
+  ]
+}
